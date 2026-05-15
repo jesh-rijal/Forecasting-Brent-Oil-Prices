@@ -2,10 +2,10 @@ Brent Oil Price Forecasting using Time Series Models
 
 Project Overview
 This project focuses on forecasting Brent crude oil prices using multiple time-series forecasting models, including:            
-            • ARIMA      
-            • SARIMA      
-            • Prophet        
-            • Exponential Smoothing (ETS)      
+    • ARIMA      
+    • SARIMA      
+    • Prophet        
+    • Exponential Smoothing (ETS)      
 
 The main objective of this project is to analyze historical Brent oil price trends and build a robust forecasting system capable of handling:         
     • Long-term trends      
