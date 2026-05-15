@@ -115,34 +115,44 @@ The Streamlit application includes:
     └── brent_oil_prices.ipynb            
 
 Installation Guide        
-1. Clone Repository:           
-   git clone https://github.com/your-username/brent-oil-price-forecasting.git           
-2. Move into Project Folder:          
-   cd brent-oil-price-forecasting     
-3. Create Virtual Environment (Recommended):       
-   Winddows        
-   python -m venv venv        
-   venv\Scripts\activate      
+1. Clone Repository:
+   
+       git clone https://github.com/your-username/brent-oil-price-forecasting.git
+            
+2. Move into Project Folder:
+         
+       cd brent-oil-price-forecasting
+      
+4. Create Virtual Environment (Recommended):       
+   Winddows
+       
+       python -m venv venv        
+       venv\Scripts\activate      
 
-   Mac/Linux        
-   python3 -m venv venv        
-   source venv/bin/activate         
-   Install Required Libraries           
-   pip install -r requirements.txt           
+   Mac/Linux
+       
+       python3 -m venv venv        
+       source venv/bin/activate
+        
+   Install Required Libraries
+           
+       pip install -r requirements.txt           
  
 Required Libraries           
-Example libraries used in this project:           
-   • pandas     
-   • numpy      
-   • matplotlib        
-   • scikit-learn    
-   • statsmodels          
-   • prophet        
-   • streamlit           
-   • joblib      
+Example libraries used in this project:      
+
+    pandas     
+    numpy      
+    matplotlib        
+    scikit-learn    
+    statsmodels          
+    prophet        
+    streamlit           
+    joblib      
    
-Run Streamlit Application     
-   • streamlit run app.py    
+Run Streamlit Application       
+
+    streamlit run app.py    
    
 Streamlit Features          
 The application allows users to:          
@@ -161,10 +171,11 @@ The forecast includes:
   
 Cross-Validation       
 Time-series cross-validation was implemented using:        
-  TimeSeriesSplit(       
-      n_splits=5,           
-      test_size=180           
-  )            
+
+      TimeSeriesSplit(       
+          n_splits=5,           
+          test_size=180           
+      )            
 This ensures that the model is evaluated on unseen future data while preserving chronological order.            
 
 Technologies Used                   
