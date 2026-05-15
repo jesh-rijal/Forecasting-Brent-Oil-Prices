@@ -14,7 +14,7 @@ The main objective of this project is to analyze historical Brent oil price tren
 Long-term trends,
 Structural changes,
 Market volatility,
-External global shocks,
+External global shocks
 
 The final deployed forecasting model is the Prophet model, selected based on overall forecasting stability and cross-validation performance.
 
@@ -28,36 +28,36 @@ Price,
 Time Period,
 From: 20-May-1987,
 To: 14-Nov-2022,
-Project Workflow,
+
+Project Workflow
 1. Data Cleaning
 
 The following preprocessing steps were performed:
 
-Checked missing values
-Checked duplicate records
-Checked outliers using Z-score
-Checked missing timestamps using pd.date_range()
-Handled missing timestamps using forward filling
-Converted date column into datetime format
-Set date column as DataFrame index
+Checked missing values,
+Checked duplicate records,
+Checked outliers using Z-score,
+Checked missing timestamps using pd.date_range(),
+Handled missing timestamps using forward filling,
+Converted date column into datetime format,
+Set date column as DataFrame index,
+
 2. Feature Engineering
-
 Created time-based features such as:
-
-Day of week
+Day of week,
 Day of month
 
 Performed:
+Resampling,
+Differencing,
+Rolling statistics generation,
 
-Resampling
-Differencing
-Rolling statistics generation
 Models Developed
-ARIMA
-ARIMA(1,1,0)
-Trend component included
-SARIMA
-order=(2,1,1)
+ARIMA   
+ARIMA(1,1,0)   
+Trend component included   
+SARIMA  
+order=(2,1,1)  
 seasonal_order=(1,1,1,7)
 Prophet
 
