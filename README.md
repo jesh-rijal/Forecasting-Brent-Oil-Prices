@@ -29,7 +29,6 @@ Time Period
 
 Project Workflow
 1. Data Cleaning              
-
 The following preprocessing steps were performed:        
     • Checked missing values            
     • Checked duplicate records          
