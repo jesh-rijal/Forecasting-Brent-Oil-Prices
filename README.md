@@ -20,8 +20,8 @@ Dataset Information
     • Source: U.S. Energy Information Administration (EIA)        
     • Rows: 9,011    
     • Columns: 2                   
-        o Date                
-        o Price             
+          o Date                
+          o Price             
         
 Time Period     
     • From: 20-May-1987        
