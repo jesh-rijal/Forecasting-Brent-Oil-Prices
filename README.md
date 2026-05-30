@@ -204,7 +204,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-### 🍎 Mac / <img src="https://img.icons8.com/color/48/linux--v1.png" width="20"/> Linux
+### <img src="https://img.icons8.com/color/48/mac-client.png" width="20"/> Mac / <img src="https://img.icons8.com/color/48/linux--v1.png" width="20"/> Linux
 
 ```bash
 python3 -m venv venv
@@ -312,5 +312,11 @@ Possible future improvements:
 # 👨‍💻 Author
 
 ```bash
-Name: Jesh Rijla
+Name: Jesh Rijal
 Github: [My GitHub Profile](https://github.com/jesh-rijal)
+```
+
+---
+
+# 🔓 License
+This project is open-source and available for educational and learning purposes.
